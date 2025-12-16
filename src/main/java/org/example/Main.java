@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -6,8 +7,23 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf(" Goodbye World!");
+       // System.out.printf(" Goodbye World!");
+        Scanner scanner = new Scanner(System.in);
 
+        // Prompt the user to enter the price of the item
+        //System.out.print("Enter the price of the item: ");
+        //double price = scanner.nextDouble();
 
+        // Prompt the user to enter the quantity of the item
+        //System.out.print("Enter the quantity of the item: ");
+        //double quantity = scanner.nextDouble();
+
+        // Calculate the total cost
+        //double total = price * quantity;
+        // System.out.println("The total cost is: $" + total);
+        System.out.println("Please Enter your age:");
+        int  age = scanner.nextInt();
+        int Difference = 100 - age;
+        System.out.println("your age is " + age + ". you have " + Difference + " years to reach 100 years.");
     }
 }
